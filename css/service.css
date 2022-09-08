@@ -8,7 +8,7 @@
 body{
     overflow: scroll;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: rgb(15,75,73);
     background: -moz-linear-gradient(180deg, rgba(15,75,73,1) 0%, rgba(7,30,34,1) 100%);
     background: -webkit-linear-gradient(180deg, rgba(15,75,73,1) 0%, rgba(7,30,34,1) 100%);
@@ -25,7 +25,7 @@ body{
 }
 
 .main-img{
-    width: 90vw;
+    width: 100vw;
 }
 .hidden-service{
     display: none;
@@ -47,8 +47,7 @@ body{
 }
 
 .txt-service1{
-    padding: 5%;
-    margin-top: 12%;
+    margin: 2rem;
 }
 
 .span-service1-vert{
@@ -59,10 +58,10 @@ body{
 /* IMG  */
 
 .img-mockup-service{
-    margin-top: -30%;
-    width: 400%;
-    float: left;
-    margin-left: -156%;
+    position: relative;
+    right: 33em;
+    width: 90rem;
+
 }
 
 /* BUTTON  */
@@ -103,6 +102,18 @@ body{
   /* RESPONSIVE TABLETTE  */
   
   @media screen and ( min-width : 768px )  {
+
+    .main-content-hr{
+        display: flex;
+    }
+
+    .main-content-hr .main-img-1 img{
+        height: 0.5em;
+    }
+
+    .hidden{
+        display: none;
+    }
 
     .hidden-service{
         display: flex;
