@@ -10,7 +10,7 @@
 body{
     overflow: scroll;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: rgb(15,75,73);
     background: -moz-linear-gradient(180deg, rgba(15,75,73,1) 0%, rgba(7,30,34,1) 100%);
     background: -webkit-linear-gradient(180deg, rgba(15,75,73,1) 0%, rgba(7,30,34,1) 100%);
@@ -140,4 +140,15 @@ body{
 
 .main-content .btn-main a{
     text-decoration: none;
+}
+
+/* ICONES STYLE*/
+
+.iconograhie .bornes .img-bornes{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    justify-items: center;
+
 }
