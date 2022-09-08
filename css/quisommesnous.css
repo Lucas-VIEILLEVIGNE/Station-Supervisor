@@ -70,6 +70,9 @@ body{
     padding: 10px;
     background-color: #071E22;
 }
+.banner-txt{
+    margin-left: 4%;
+}
 
 .monsieur{
     margin-left: 2%;
@@ -98,3 +101,57 @@ body{
 .h3-ekip{
     margin-top: 8%;
 }
+
+.point-ekip{
+    width: 10%;
+}
+
+.banner2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carte-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+.txt-carte{
+   margin-top: -3%;
+    font-size: x-large;
+}
+
+.carte{
+ width: 30%;
+ margin-bottom: 3%;
+}
+
+
+.button-mad{
+    margin-top: 3%;
+      width: 200px;
+      padding: 20px;
+      border: none;
+      border-radius: 50px 50px 50px 50px;
+      font-size: 1em;
+      text-decoration: none;
+      text-align: center;
+      color: black;
+      background-color: #77EA97;
+  }
+
+  .madame {
+    height: 400px;
+    background-image: url(/img/contact_photo.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.madame .h2-madame{
+    margin-top: 10%;
+}
+
