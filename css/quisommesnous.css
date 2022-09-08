@@ -52,3 +52,49 @@ body{
 .span-hero{
     color: #77EA97;
 }
+
+.main-ekip{
+    display: flex;
+    justify-content: space-around;
+    background-color: #03363F;
+}
+
+.banner1{
+    width: 100%;
+    padding: 10px;
+    background-color: #071E22;
+}
+
+.banner2{
+    width: 100%;
+    padding: 10px;
+    background-color: #071E22;
+}
+
+.monsieur{
+    margin-left: 2%;
+    width: 60%;
+}
+
+.fleche-g{
+    margin-top: 7%;
+    margin-left: 2%;
+}
+
+.fleche-d{
+    margin-top: 7%;
+    margin-right: 2%;
+}
+
+.txt-ekip{
+    margin-top: 2%;
+
+}
+
+.h2-ekip{
+    margin-top: 2%;
+}
+
+.h3-ekip{
+    margin-top: 8%;
+}
