@@ -47,7 +47,8 @@ body{
 }
 
 .h1-service1{
-    margin-top: 15%;
+    text-align: center;
+    margin-top: 10%;
 }
 
 .txt-service1{
@@ -65,7 +66,6 @@ body{
     position: relative;
     right: 33em;
     width: 90rem;
-
 }
 
 /* BUTTON  */
@@ -85,7 +85,8 @@ body{
 
 
 .button-hero1{
-    margin-top: 15%;
+    margin-left: 25%;
+    margin-top: 10%;
       width: 200px;
       padding: 20px;
       border: none;
@@ -99,8 +100,18 @@ body{
 
 
 
+.voituree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:500%;
+}
 
-
+.service1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
   /* RESPONSIVE TABLETTE  */
@@ -218,6 +229,7 @@ body{
         }
     
         .h1-service{
+            font-size: 2.2rem;
             text-align: center;
             color: white;
         }
@@ -228,12 +240,14 @@ body{
         }
         
         .h1-service1{
-            margin-top: 10%;
+            margin-top: -6%;
+            font-size: 2.2rem;
         }
         
         .txt-service1{
-            padding: 5%;
-            margin-top: 5%;
+            width: 500px;
+            height: 500px;
+            margin-top: -3%;
         }
         
         .span-service1-vert{
@@ -241,33 +255,18 @@ body{
         }
         
         
-        /* IMG  */
-        
-        .img-mockup-service{
-            margin-top: -18%;
-            width: 200%;
-            margin-left: -50%;
-        
+        .mockup-relou{
+            margin-top: -6%;
+            width: 100%;
         }
         
         /* BUTTON  */
-        
-        .button-hero{
-          margin-top: -10%;
-            width: 250px;
-            padding: 30px;
-            border: none;
-            border-radius: 50px 50px 50px 50px;
-            font-size:1em;
-            text-decoration: none;
-            text-align: center;
-            color: black;
-            background-color: #77EA97;
-        }
+  
         
         
         .button-hero1{
-            margin-top: 10%;
+            margin-left: 43%;
+            margin-top: -36%;
               width: 250px;
               padding: 30px;
               border: none;
@@ -279,5 +278,20 @@ body{
               background-color: #77EA97;
           }
         
+
+      .voituree{
+        margin-top: -10%;
+        width:20%;
+    }
+    
+    .service1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
     
       }
+
+
+    
