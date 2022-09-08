@@ -1,0 +1,42 @@
+/* FOOTER */
+
+footer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo-footer img{
+    height: 10em;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+.left h2{
+    margin: 1em;
+    font-size: 0.75em;
+}
+
+.right{
+    margin: 1em;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+}
+
+.right h2{
+    font-size: 0.75em;
+}
+
+.right p{
+    font-size: 0.7em;
+    margin: 0.75em;
+}
