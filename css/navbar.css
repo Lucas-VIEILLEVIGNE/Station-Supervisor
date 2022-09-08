@@ -5,6 +5,9 @@ body{
     font-family: 'Comfortaa', cursive;
 }
 
+/*COLOR*/
+
+
 /* NAVBAR */
 
 .navbar-link {
@@ -55,9 +58,8 @@ ul {
     position: relative;
 }
 .logo{
-    padding: 1vh;
     height: 4em;
-    z-index: 1;
+    z-index: 0;
 }
 
 /* Small Devices */
@@ -71,8 +73,13 @@ ul {
         font-size: 40px;
         z-index: -100000;
     }   
-    
+
     .navbar-links {
+        background: rgb(15,75,73);
+        background: -moz-linear-gradient(180deg, rgba(15,75,73,1) 0%, rgba(7,30,34,1) 100%);
+        background: -webkit-linear-gradient(180deg, rgba(15,75,73,1) 0%, rgba(7,30,34,1) 100%);
+        background: linear-gradient(180deg, rgba(15,75,73,1) 0%, rgba(7,30,34,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0f4b49",endColorstr="#071e22",GradientType=1);
         display: flex;
         flex-direction: column;
         align-items: center;
