@@ -9,6 +9,11 @@ body{
 
 /* NAVBAR */
 
+.navbar .lien .btn-client{
+    background-color: #77EA97;
+    border-radius: 15px;
+}
+
 .navbar-link {
     padding: 0 50px;
 }
