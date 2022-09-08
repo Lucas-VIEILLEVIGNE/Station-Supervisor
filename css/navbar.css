@@ -1,7 +1,9 @@
 /* POLICE */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 
-
-
+body{
+    font-family: 'Comfortaa', cursive;
+}
 
 /* NAVBAR */
 
@@ -70,22 +72,6 @@ ul {
         z-index: -100000;
     }   
     
-    .bubbly-button{
-        z-index: -10000;
-    }
-
-    .footer a{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 0;
-        height:100vh;
-        position: absolute;
-        top: 80vh;
-        right: 0;
-        transition: all .4s ease-in-out;
-    }
-
     .navbar-links {
         display: flex;
         flex-direction: column;
@@ -189,30 +175,7 @@ ul {
     .show-nav .fifth {
         transition: all 1.5s ease-out;
     }
-
-    .show-nav .six{
-        transition: all 1.6s ease-out;
-    }
-    .show-nav .seven{
-        transition: all 1.6 ease-out;
-    }
-    .show-nav .eight{
-        transition: all 1.6 ease-out;
-    }
 }
-
-.fa-github:hover{
-    color: purple;
-}
-
-.fa-instagram:hover{
-    color: orange;
-}
-
-.fa-linkedin-in:hover{
-    color: blue;
-}
-
 /* Medium devices */
 @media screen and (min-width:820px){
     .navbar-link > a:after {
