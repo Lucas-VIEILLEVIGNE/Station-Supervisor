@@ -24,6 +24,9 @@ body{
     text-align: center;
 }
 
+.main-img{
+    width: 90vw;
+}
 .hidden-service{
     display: none;
 }
@@ -101,13 +104,16 @@ body{
   
   @media screen and ( min-width : 768px )  {
 
-    .main-content{
+    .hidden-service{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
     }
+    
+   .main-content .main-img{
+    display: flex;
+    flex-direction: row;
+
+   }
+
 
     .h1-service{
         text-align: center;
@@ -136,11 +142,21 @@ body{
     
     .img-mockup-service{
         margin-top: -18%;
-        width: 200%;
-        margin-left: -53%;
+        width: 30%;
+      
     
     }
+
+    .logo-hero{
+        width: 30%;
+      
+    }
     
+    .img-mockup-service2{
+        margin-top: -18%;
+        width: 30%;
+        
+    }
     /* BUTTON  */
     
     .button-hero{
