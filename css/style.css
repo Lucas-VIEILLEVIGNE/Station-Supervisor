@@ -8,6 +8,8 @@
 
 /*BODY COLOR*/
 body{
+    overflow: scroll;
+    background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
     background: rgb(15,75,73);
@@ -17,6 +19,17 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0f4b49",endColorstr="#071e22",GradientType=1);
 }
 
+/*BODY CONTENT & STYLE*/
+
+.main-content{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: -100;
+}
+
 .main-content .main-title h1{
     font-size: 1.75em;
     text-align: center;
@@ -24,4 +37,108 @@ body{
 
 .strong{
     color: #77EA97;
+}
+
+.main-content .main-img img{
+    width: 125vw;
+}
+
+.main-content .main-info p{
+    font-size: 1.25em;
+    text-align: center;
+    margin: 5%;
+}
+
+/* BOX STYLE*/
+
+.main-content .box-tarif{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    align-content: center;
+}
+
+.main-content .box-tarif .box-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: #208489;
+    border-radius: 25px;
+    height: 15em;
+    width: 50%;
+}
+
+.main-content .box-tarif .box-1 .title-box-1{
+    position: relative;
+    bottom: 5%;
+    font-size: 1.4em;
+}
+
+.main-content .box-tarif .box-1 .price-box-1{
+    width: 100vw;
+    font-size: 2em;
+    position: relative;
+    top: 5%;
+}
+
+.main-content .box-1 .price-box-1 .prix{
+    text-shadow: 2px 3px 5px #071E22;
+    font-size: 1.5em;
+}
+
+/* BOX 2*/
+
+.main-content .box-tarif .box-2{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: #208489;
+    border-radius: 25px;
+    height: 15em;
+    width: 50%;
+}
+
+.main-content .box-tarif .box-2 .title-box-2{
+    position: relative;
+    bottom: 5%;
+    font-size: 1.4em;
+}
+
+.main-content .box-tarif .box-2 .price-box-2{
+    width: 100vw;
+    font-size: 2em;
+    position: relative;
+    top: 5%;
+}
+
+.main-content .box-2 .price-box-2 .prix{
+    text-shadow: 2px 3px 5px #071E22;
+    font-size: 1.5em;
+}
+
+/* BOUTON DEVIS */
+
+.main-content .btn-main{
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-top: 2rem;
+    color: #071E22;
+    background-color: #77EA97;
+    width: 75%;
+    height: 100px;
+}
+
+.main-content .btn-main a{
+    text-decoration: none;
 }
