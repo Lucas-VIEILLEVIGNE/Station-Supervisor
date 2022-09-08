@@ -6,6 +6,7 @@
 
 /*BODY COLOR*/
 body{
+    overflow: scroll;
     width: 100%;
     height: 100vh;
     background: rgb(15,75,73);
@@ -16,6 +17,8 @@ body{
 }
 
 
+
+
 /* TXT */
 
 .h1-service{
@@ -23,6 +26,22 @@ body{
     color: white;
 }
 
+.h1-service1{
+    margin-top: 20%;
+    text-align: center;
+    color: white;
+}
+
+.txt-service1{
+padding-top: 15%;
+ color: white;
+ margin: 5%;
+}
+
+
+.span-service1-vert{
+    color: #77EA97;
+}
 .span-service{
     color: #77EA97;
 }
@@ -36,3 +55,34 @@ body{
     float: left;
     margin-left: -156%;
 }
+
+/* BUTTON  */
+
+.button-hero{
+  margin-top: -10%;
+   margin-left: 25% ;
+    width: 200px;
+    padding: 20px;
+    border: none;
+    border-radius: 50px 50px 50px 50px;
+    font-size:1em;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background-color: #77EA97;
+}
+
+
+.button-hero1{
+    margin-top: 15%;
+     margin-left: 25% ;
+      width: 200px;
+      padding: 20px;
+      border: none;
+      border-radius: 50px 50px 50px 50px;
+      font-size: 1em;
+      text-decoration: none;
+      text-align: center;
+      color: black;
+      background-color: #77EA97;
+  }
