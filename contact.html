@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Station Supervisor</title>
+    <link rel="icon" type="image/png"  href="img/logovertical.png">
+<link rel="stylesheet" href="css/contact.css">
+<link rel="stylesheet" href="css/navbar.css">
+<link rel="stylesheet" href="/css/footer.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar" role="navigation">
+            <div class="nav-logo">
+                <a href="index.html"><img class="logo" src="/img/logo_horizontal.svg" alt="Logo Station Supervisor, vert et blanc"></a>
+            </div>           
+            <ul class="navbar-links">
+                <li class="navbar-link first lien"><a href="service.html">Nos Services</a></li>
+                <li class="navbar-link second lien"><a href="#">Qui sommes-nous ?</a></li>
+                <li class="navbar-link fourth lien"><a href="contact.html">Nous contacter</a></li>
+                <li class="navbar-link fifth lien btn-client"><a href="#"><i class="fa-solid fa-lock"></i>Espace Client</a></li>
+            </ul>
+
+            <button class="burger">
+                <span class="bar"></span>
+            </button>
+        </nav>        
+    </header>
+
+    <div class="container-box">
+        <div class="box">
+            <div class="h1-box">
+                <h1>
+                    CONTACTEZ <strong class="strong">NOUS</strong>
+                </h1>
+            </div>
+    
+                    <form action="" class="contact" id="contact"> 
+                        <div class="identite">
+                            <div class="prenom"><input type="text" name="first-name" class="name" required=""/>
+                                <label>Prénom</label>
+                            </div>
+                            <div class="nom"><input type="text" name="last-name" class="lastName" required=""/>
+                                <label>Nom</label>
+                            </div>
+                        </div>
+                        <div class="email"><input type="email" name="email" class="email-send" required=""><label>Email</label>
+                        </div>
+                        <div class="phone"><input type="tel"name="phone" class="tel" placeholder="Téléphone (optionnel)" />
+                        </div>
+                        <div class="message"><textarea name="message" placeholder="Votre Demande" class="msg" required=""></textarea><label></label>
+                        </div>
+                        <div class="btn-contact">
+                            <input type="submit" name="button" value="Envoyer" class="send-btn">
+                        </div>
+                    </form>
+            </div>
+    </div>
+
+
+    <!-- EmailJs -->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() 
+        {
+            emailjs.init('yNTgaNeehJcXr5IaP');
+        })();
+    </script>
+
+    <!-- Sweet Alert JS -->
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script src="/js/navbar.js"></script>
+</body>    
