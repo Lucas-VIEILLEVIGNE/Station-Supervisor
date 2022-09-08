@@ -16,7 +16,13 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0f4b49",endColorstr="#071e22",GradientType=1);
 }
 
-
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 
 /* TXT */
@@ -26,22 +32,6 @@ body{
     color: white;
 }
 
-.h1-service1{
-    margin-top: 20%;
-    text-align: center;
-    color: white;
-}
-
-.txt-service1{
-padding-top: 15%;
- color: white;
- margin: 5%;
-}
-
-
-.span-service1-vert{
-    color: #77EA97;
-}
 .span-service{
     color: #77EA97;
 }
@@ -60,7 +50,6 @@ padding-top: 15%;
 
 .button-hero{
   margin-top: -10%;
-   margin-left: 25% ;
     width: 200px;
     padding: 20px;
     border: none;
@@ -75,7 +64,6 @@ padding-top: 15%;
 
 .button-hero1{
     margin-top: 15%;
-     margin-left: 25% ;
       width: 200px;
       padding: 20px;
       border: none;
@@ -86,5 +74,3 @@ padding-top: 15%;
       color: black;
       background-color: #77EA97;
   }
-
-  test
