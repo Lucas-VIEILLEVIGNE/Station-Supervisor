@@ -17,3 +17,38 @@ body{
     background: linear-gradient(180deg, rgba(15,75,73,1) 0%, rgba(7,30,34,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0f4b49",endColorstr="#071e22",GradientType=1);
 }
+
+
+
+.hero-qsn{
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.hero-g{
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.hero-d{
+    float: left;
+}
+
+.h1-hero{
+    margin-top: 20%;
+    text-align: center;
+}
+
+.txt-hero{
+    margin-top: 10%;
+    text-align: center;
+    padding: 3%;
+    width: 400px;
+    height: 20px;
+}
+
+.span-hero{
+    color: #77EA97;
+}
