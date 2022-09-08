@@ -16,3 +16,12 @@ body{
     background: linear-gradient(180deg, rgba(15,75,73,1) 0%, rgba(7,30,34,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0f4b49",endColorstr="#071e22",GradientType=1);
 }
+
+.main-content .main-title h1{
+    font-size: 1.75em;
+    text-align: center;
+}
+
+.strong{
+    color: #77EA97;
+}
