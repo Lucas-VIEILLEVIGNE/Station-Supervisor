@@ -155,3 +155,147 @@ body{
     margin-top: 10%;
 }
 
+@media all and (max-device-width: 480px){
+    .hero-qsn{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+    }
+    .hero-g{
+        display: flex;
+        flex-direction: column;
+        float: left;
+    }
+    
+    .hero-d{
+        float: left;
+    }
+    
+    .h1-hero{
+        margin-top: 10%;
+        text-align: center;
+    }
+    
+    .txt-hero{
+        margin-top: 10%;
+        text-align: center;
+        padding: 3%;
+        width: 370px;
+        height: 200px;
+    }
+    .img-hero{
+        display: none;
+    }
+    .span-hero{
+        color: #77EA97;
+    }
+    
+    .main-ekip{
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+        background-color: #03363F;
+    }
+    
+    .banner1{
+        width: 100%;
+        padding: 10px;
+        background-color: #071E22;
+    }
+    
+    .banner2{
+        width: 100%;
+        padding: 10px;
+        background-color: #071E22;
+    }
+    .banner-txt{
+        margin-left: 4%;
+    }
+    
+    .monsieur{
+        margin-top: 4%;
+      margin-left: 11%;
+        width: 60%;
+    }
+    
+    .fleche-g{
+        display: none;
+    }
+    
+    .fleche-d{
+       display: none;
+    }
+    
+    .txt-ekip{
+        text-align: center;
+        margin-top: 2%;
+   margin-bottom: 6%;
+    }
+    
+    .h2-ekip{
+        text-align: center;
+        margin-top: 2%;
+    }
+    
+    .h3-ekip{
+        text-align: center;
+        margin-top: 8%;
+    }
+    
+    .point-ekip{
+        width: 30%;
+    }
+    
+    .banner2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .carte-main{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3%;
+    }
+    .txt-carte{
+        margin-top: 2%;
+       width: 200px;
+       height: 200px;
+        font-size: medium;
+    }
+    
+    .carte{
+        margin-top: 7%;
+     width: 50%;
+     margin-bottom: 3%;
+    }
+    
+    
+    .button-mad{
+        margin-top: 7%;
+          width: 200px;
+          padding: 20px;
+          border: none;
+          border-radius: 50px 50px 50px 50px;
+          font-size: 1em;
+          text-decoration: none;
+          text-align: center;
+          color: black;
+          background-color: #77EA97;
+      }
+    
+      .madame {
+        height: 200px;
+        background-image: url(/img/contact_photo.png);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .madame .h2-madame{
+        margin-top: 10%;
+    }
+     
+}
