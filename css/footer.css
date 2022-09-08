@@ -4,6 +4,7 @@ footer{
     justify-content: center;
     align-items: center;
     text-align: center;
+    
 }
 
 .logo-footer img{
@@ -23,6 +24,7 @@ footer{
 .left h2{
     margin: 1em;
     font-size: 0.75em;
+    text-decoration: none;
 }
 
 .right{
@@ -34,14 +36,17 @@ footer{
 
 .right h2{
     font-size: 0.75em;
+    text-decoration: none;
 }
 
 .right p{
     font-size: 0.7em;
     margin: 0.75em;
+    text-decoration: none;
 }
 
 
 .strong{
     color: #77EA97;
+    text-decoration: none;
 }
